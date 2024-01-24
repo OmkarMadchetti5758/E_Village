@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="Login.css">
     <title>Login</title>
 </head>
 <body>
-    hello
+    
+    <div class="form">
+        <form action="">
+            <h2>Login</h2>
+            <div class="input-box">
+                <box-icon type='solid' name='user' class="img"></box-icon><input type="text" placeholder="Username" required>
+            </div>
+            <div class="input-box">
+                <box-icon type='solid' name='lock-alt' class="img"></box-icon><input type="password" placeholder="Password" required>
+            </div>
+            <div class="remember-forget">
+                <label><input type="checkbox">Remember Me</label> <a href="#">Forget password?</a>
+            </div>
+            <button type="submit"><a href="#">Login</a></button>
+            <div class="register">
+                <p>Don't have an account?<a href="#">Register</a></p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
